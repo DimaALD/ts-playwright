@@ -1,0 +1,38 @@
+{
+    "name": "ts-playwright",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "prepare": "husky install",
+        "test": "npx playwright test -c src/config/playwright.config.ts",
+        "lint": "eslint . --ext .ts --fix"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/DimaALD/ts-playwright.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/DimaALD/ts-playwright/issues"
+    },
+    "homepage": "https://github.com/DimaALD/ts-playwright#readme",
+    "devDependencies": {
+        "typescript": "^4.5.5",
+        "ts-node": "^10.4.0",
+        "playwright": "^1.18.1",
+        "@playwright/test": "^1.18.1",
+        "eslint": "^8.9.0",
+        "@typescript-eslint/parser": "^5.11.0",
+        "@typescript-eslint/eslint-plugin": "^5.11.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-prettier": "^4.0.0",
+        "eslint-plugin-import": "^2.25.4",
+        "prettier": "^2.5.1",
+        "tsconfig-paths": "^3.12.0",
+        "husky": "^7.0.0"
+    }
+}

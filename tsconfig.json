@@ -1,0 +1,45 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES2021",
+        "moduleResolution": "node",
+        "lib": [
+            "ES2021"
+        ],
+        "baseUrl": "./src",
+        "allowJs": false,
+        "strict": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "noUncheckedIndexedAccess": true,
+        "noPropertyAccessFromIndexSignature": true,
+        "noImplicitOverride": true,
+        "noUnusedParameters": true,
+        "noUnusedLocals": true,
+        "experimentalDecorators": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "newLine": "lf",
+        "skipLibCheck": true,
+        "paths": {
+            "@config/*": [
+                "./config/*"
+            ],
+            "@_types/*": [
+                "./types/*"
+            ],
+            "@utils/*": [
+                "./utils/*"
+            ],
+            "@data/*": [
+                "./data/*"
+            ],
+            "@po/*": [
+                "./po/*"
+            ],
+            "@models/*": [
+                "./models/*"
+            ]
+        }
+    }
+}
